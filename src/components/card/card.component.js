@@ -17,7 +17,7 @@ export default class CardComponent extends React.Component {
             className="text-grey-darker text-base overflow-hidden"
             style={{ height: '75px' }}
           >
-            {brief} {id}
+            {brief}
           </p>
           <footer className="flex justify-between">
             <div className="px-2 pt-4">
