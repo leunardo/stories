@@ -30,7 +30,7 @@ export default class CardComponent extends React.Component {
                 </span>
               ))}
             </div>
-            <Link className="underline p-2 rounded" to={`/${friendlyUrl}`}>Read more</Link>
+            <Link className="underline p-2 rounded" to={`/story/${friendlyUrl}`}>Read more</Link>
           </footer>
         </div>
       </article>
