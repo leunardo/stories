@@ -18,7 +18,7 @@ export default class HomePage extends React.Component {
 
   render() {
     return <div className="flex flex-col min:p-2">
-        { this.state.stories.map((stories, i) => <CardComponent key={i} {...stories} />) }
+        { this.state.stories.map((story) => <CardComponent key={story.friendlyUrl} {...story} />) }
     </div>;
   }
 
